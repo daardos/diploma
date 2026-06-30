@@ -1,0 +1,605 @@
+{
+"items": [
+{ "name": "Дерево", "category": "Ресурсы", "stack_size": 1000 },
+{ "name": "Камень", "category": "Ресурсы", "stack_size": 1000 },
+{ "name": "Металлическая руда", "category": "Ресурсы", "stack_size": 1000 },
+{ "name": "Серная руда", "category": "Ресурсы", "stack_size": 1000 },
+{ "name": "Высококачественная металлическая руда", "category": "Ресурсы", "stack_size": 500 },
+{ "name": "Уголь", "category": "Ресурсы", "stack_size": 1000 },
+{ "name": "Скрап", "category": "Ресурсы", "stack_size": 1000 },
+{ "name": "Ткань", "category": "Ресурсы", "stack_size": 500 },
+{ "name": "Кожа", "category": "Ресурсы", "stack_size": 500 },
+{ "name": "Кости", "category": "Ресурсы", "stack_size": 500 },
+{ "name": "Сырая нефть", "category": "Ресурсы", "stack_size": 500 },
+{ "name": "Металлолом", "category": "Ресурсы", "stack_size": 500 },
+{ "name": "Шестерня", "category": "Компоненты", "stack_size": 50 },
+{ "name": "Пружина", "category": "Компоненты", "stack_size": 50 },
+{ "name": "Электронная плата", "category": "Компоненты", "stack_size": 50 },
+{ "name": "Труба", "category": "Компоненты", "stack_size": 50 },
+{ "name": "Лист металла", "category": "Компоненты", "stack_size": 50 },
+{ "name": "Винт", "category": "Компоненты", "stack_size": 50 },
+{ "name": "Порох", "category": "Компоненты", "stack_size": 200 },
+{ "name": "Сырое мясо", "category": "Еда", "stack_size": 20 },
+{ "name": "Приготовленное мясо", "category": "Еда", "stack_size": 20 },
+{ "name": "Грибы", "category": "Еда", "stack_size": 50 },
+{ "name": "Ягоды", "category": "Еда", "stack_size": 50 },
+{ "name": "Консервы", "category": "Еда", "stack_size": 10 },
+{ "name": "Топор", "category": "Инструменты", "stack_size": 1 },
+{ "name": "Кирка", "category": "Инструменты", "stack_size": 1 },
+{ "name": "Молот", "category": "Инструменты", "stack_size": 1 },
+{ "name": "Гаечный ключ", "category": "Инструменты", "stack_size": 1 },
+{ "name": "Строительный план", "category": "Инструменты", "stack_size": 1 },
+{ "name": "Медицинский шприц", "category": "Медицина", "stack_size": 2 },
+{ "name": "Большая аптечка", "category": "Медицина", "stack_size": 1 },
+{ "name": "Лук", "category": "Оружие", "stack_size": 1 },
+{ "name": "Арбалет", "category": "Оружие", "stack_size": 1 },
+{ "name": "Револьвер", "category": "Оружие", "stack_size": 1 },
+{ "name": "Пистолет", "category": "Оружие", "stack_size": 1 },
+{ "name": "Дробовик", "category": "Оружие", "stack_size": 1 },
+{ "name": "Винтовка", "category": "Оружие", "stack_size": 1 },
+{ "name": "AK-47", "category": "Оружие", "stack_size": 1 },
+{ "name": "Снайперская винтовка", "category": "Оружие", "stack_size": 1 },
+{ "name": "Ракетница", "category": "Оружие", "stack_size": 1 },
+{ "name": "Граната", "category": "Оружие", "stack_size": 5 },
+{ "name": "Стрела", "category": "Патроны", "stack_size": 100 },
+{ "name": "Патроны для пистолета", "category": "Патроны", "stack_size": 200 },
+{ "name": "Патроны 5.56", "category": "Патроны", "stack_size": 200 },
+{ "name": "Патроны для дробовика", "category": "Патроны", "stack_size": 100 },
+{ "name": "Ракета", "category": "Патроны", "stack_size": 10 },
+{ "name": "Кожаная шапка", "category": "Броня", "stack_size": 1 },
+{ "name": "Кожаный жилет", "category": "Броня", "stack_size": 1 },
+{ "name": "Кожаные штаны", "category": "Броня", "stack_size": 1 },
+{ "name": "Металлический шлем", "category": "Броня", "stack_size": 1 },
+{ "name": "Металлический нагрудник", "category": "Броня", "stack_size": 1 },
+{ "name": "Тактический жилет", "category": "Броня", "stack_size": 1 },
+{ "name": "Деревянный фундамент", "category": "Строительство", "stack_size": 10 },
+{ "name": "Деревянная стена", "category": "Строительство", "stack_size": 10 },
+{ "name": "Деревянный потолок", "category": "Строительство", "stack_size": 10 },
+{ "name": "Каменный фундамент", "category": "Строительство", "stack_size": 5 },
+{ "name": "Каменная стена", "category": "Строительство", "stack_size": 5 },
+{ "name": "Каменный потолок", "category": "Строительство", "stack_size": 5 },
+{ "name": "Металлическая стена", "category": "Строительство", "stack_size": 5 },
+{ "name": "Металлическая дверь", "category": "Строительство", "stack_size": 1 },
+{ "name": "Двойная дверь", "category": "Строительство", "stack_size": 1 },
+{ "name": "Люк", "category": "Строительство", "stack_size": 1 },
+{ "name": "Окно с решеткой", "category": "Строительство", "stack_size": 1 },
+{ "name": "Генератор", "category": "Электричество", "stack_size": 1 },
+{ "name": "Лампа", "category": "Электричество", "stack_size": 5 },
+{ "name": "Выключатель", "category": "Электричество", "stack_size": 5 },
+{ "name": "Турель", "category": "Электричество", "stack_size": 1 },
+{ "name": "Кровать", "category": "Разное", "stack_size": 1 },
+{ "name": "Ящик", "category": "Разное", "stack_size": 1 },
+{ "name": "Печь", "category": "Разное", "stack_size": 1 },
+{ "name": "Верстак 1 уровня", "category": "Разное", "stack_size": 1 },
+{ "name": "Верстак 2 уровня", "category": "Разное", "stack_size": 1 },
+{ "name": "Верстак 3 уровня", "category": "Разное", "stack_size": 1 },
+{ "name": "Исследовательский стол", "category": "Разное", "stack_size": 1 }
+],
+"blueprints": [
+{ "item_name": "Топор", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Кирка", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Молот", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Строительный план", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Лук", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Стрела", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Кожаная шапка", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Кожаный жилет", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Кожаные штаны", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Деревянный фундамент", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Деревянная стена", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Деревянный потолок", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Кровать", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Ящик", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Печь", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Верстак 1 уровня", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Порох", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Приготовленное мясо", "scrap_to_learn": 0, "default_learned": 1 },
+{ "item_name": "Медицинский шприц", "scrap_to_learn": 75, "default_learned": 0 },
+{ "item_name": "Большая аптечка", "scrap_to_learn": 150, "default_learned": 0 },
+{ "item_name": "Гаечный ключ", "scrap_to_learn": 50, "default_learned": 0 },
+{ "item_name": "Арбалет", "scrap_to_learn": 100, "default_learned": 0 },
+{ "item_name": "Револьвер", "scrap_to_learn": 200, "default_learned": 0 },
+{ "item_name": "Пистолет", "scrap_to_learn": 250, "default_learned": 0 },
+{ "item_name": "Дробовик", "scrap_to_learn": 300, "default_learned": 0 },
+{ "item_name": "Винтовка", "scrap_to_learn": 400, "default_learned": 0 },
+{ "item_name": "AK-47", "scrap_to_learn": 500, "default_learned": 0 },
+{ "item_name": "Снайперская винтовка", "scrap_to_learn": 750, "default_learned": 0 },
+{ "item_name": "Ракетница", "scrap_to_learn": 1000, "default_learned": 0 },
+{ "item_name": "Граната", "scrap_to_learn": 150, "default_learned": 0 },
+{ "item_name": "Патроны для пистолета", "scrap_to_learn": 75, "default_learned": 0 },
+{ "item_name": "Патроны 5.56", "scrap_to_learn": 125, "default_learned": 0 },
+{ "item_name": "Патроны для дробовика", "scrap_to_learn": 100, "default_learned": 0 },
+{ "item_name": "Ракета", "scrap_to_learn": 500, "default_learned": 0 },
+{ "item_name": "Металлический шлем", "scrap_to_learn": 100, "default_learned": 0 },
+{ "item_name": "Металлический нагрудник", "scrap_to_learn": 150, "default_learned": 0 },
+{ "item_name": "Тактический жилет", "scrap_to_learn": 300, "default_learned": 0 },
+{ "item_name": "Каменный фундамент", "scrap_to_learn": 75, "default_learned": 0 },
+{ "item_name": "Каменная стена", "scrap_to_learn": 75, "default_learned": 0 },
+{ "item_name": "Каменный потолок", "scrap_to_learn": 75, "default_learned": 0 },
+{ "item_name": "Металлическая стена", "scrap_to_learn": 200, "default_learned": 0 },
+{ "item_name": "Металлическая дверь", "scrap_to_learn": 75, "default_learned": 0 },
+{ "item_name": "Двойная дверь", "scrap_to_learn": 150, "default_learned": 0 },
+{ "item_name": "Люк", "scrap_to_learn": 100, "default_learned": 0 },
+{ "item_name": "Окно с решеткой", "scrap_to_learn": 100, "default_learned": 0 },
+{ "item_name": "Генератор", "scrap_to_learn": 300, "default_learned": 0 },
+{ "item_name": "Лампа", "scrap_to_learn": 30, "default_learned": 0 },
+{ "item_name": "Выключатель", "scrap_to_learn": 30, "default_learned": 0 },
+{ "item_name": "Турель", "scrap_to_learn": 500, "default_learned": 0 },
+{ "item_name": "Верстак 2 уровня", "scrap_to_learn": 300, "default_learned": 0 },
+{ "item_name": "Верстак 3 уровня", "scrap_to_learn": 500, "default_learned": 0 },
+{ "item_name": "Исследовательский стол", "scrap_to_learn": 200, "default_learned": 0 },
+{ "item_name": "Шестерня", "scrap_to_learn": 20, "default_learned": 0 },
+{ "item_name": "Пружина", "scrap_to_learn": 20, "default_learned": 0 },
+{ "item_name": "Электронная плата", "scrap_to_learn": 30, "default_learned": 0 },
+{ "item_name": "Труба", "scrap_to_learn": 20, "default_learned": 0 },
+{ "item_name": "Лист металла", "scrap_to_learn": 20, "default_learned": 0 },
+{ "item_name": "Винт", "scrap_to_learn": 10, "default_learned": 0 }
+],
+"crafts": [
+{
+"result_item": "Топор",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 200 },
+{ "name": "Камень", "amount": 100 }
+]
+},
+{
+"result_item": "Кирка",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 200 },
+{ "name": "Камень", "amount": 100 }
+]
+},
+{
+"result_item": "Молот",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 150 }
+]
+},
+{
+"result_item": "Гаечный ключ",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 100 }
+]
+},
+{
+"result_item": "Строительный план",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 50 }
+]
+},
+{
+"result_item": "Медицинский шприц",
+"quantity": 1,
+"ingredients": [
+{ "name": "Ткань", "amount": 15 },
+{ "name": "Металлическая руда", "amount": 10 }
+]
+},
+{
+"result_item": "Большая аптечка",
+"quantity": 1,
+"ingredients": [
+{ "name": "Ткань", "amount": 25 },
+{ "name": "Высококачественная металлическая руда", "amount": 2 },
+{ "name": "Медицинский шприц", "amount": 1 }
+]
+},
+{
+"result_item": "Лук",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 150 },
+{ "name": "Ткань", "amount": 50 }
+]
+},
+{
+"result_item": "Арбалет",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 200 },
+{ "name": "Металлическая руда", "amount": 100 },
+{ "name": "Ткань", "amount": 50 }
+]
+},
+{
+"result_item": "Револьвер",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 200 },
+{ "name": "Дерево", "amount": 100 }
+]
+},
+{
+"result_item": "Пистолет",
+"quantity": 1,
+"ingredients": [
+{ "name": "Высококачественная металлическая руда", "amount": 10 },
+{ "name": "Металлическая руда", "amount": 150 },
+{ "name": "Ткань", "amount": 20 }
+]
+},
+{
+"result_item": "Дробовик",
+"quantity": 1,
+"ingredients": [
+{ "name": "Высококачественная металлическая руда", "amount": 15 },
+{ "name": "Металлическая руда", "amount": 200 },
+{ "name": "Дерево", "amount": 150 }
+]
+},
+{
+"result_item": "Винтовка",
+"quantity": 1,
+"ingredients": [
+{ "name": "Высококачественная металлическая руда", "amount": 20 },
+{ "name": "Металлическая руда", "amount": 300 },
+{ "name": "Дерево", "amount": 200 }
+]
+},
+{
+"result_item": "AK-47",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 500 },
+{ "name": "Дерево", "amount": 200 }
+]
+},
+{
+"result_item": "Снайперская винтовка",
+"quantity": 1,
+"ingredients": [
+{ "name": "Высококачественная металлическая руда", "amount": 30 },
+{ "name": "Металлическая руда", "amount": 400 },
+{ "name": "Дерево", "amount": 250 }
+]
+},
+{
+"result_item": "Ракетница",
+"quantity": 1,
+"ingredients": [
+{ "name": "Высококачественная металлическая руда", "amount": 40 },
+{ "name": "Металлическая руда", "amount": 500 },
+{ "name": "Труба", "amount": 5 }
+]
+},
+{
+"result_item": "Граната",
+"quantity": 1,
+"ingredients": [
+{ "name": "Порох", "amount": 100 },
+{ "name": "Металлическая руда", "amount": 50 }
+]
+},
+{
+"result_item": "Стрела",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 10 },
+{ "name": "Камень", "amount": 5 }
+]
+},
+{
+"result_item": "Патроны для пистолета",
+"quantity": 1,
+"ingredients": [
+{ "name": "Порох", "amount": 10 },
+{ "name": "Металлическая руда", "amount": 5 }
+]
+},
+{
+"result_item": "Патроны 5.56",
+"quantity": 1,
+"ingredients": [
+{ "name": "Порох", "amount": 15 },
+{ "name": "Металлическая руда", "amount": 10 }
+]
+},
+{
+"result_item": "Патроны для дробовика",
+"quantity": 1,
+"ingredients": [
+{ "name": "Порох", "amount": 15 },
+{ "name": "Металлическая руда", "amount": 10 }
+]
+},
+{
+"result_item": "Ракета",
+"quantity": 1,
+"ingredients": [
+{ "name": "Порох", "amount": 200 },
+{ "name": "Труба", "amount": 2 },
+{ "name": "Металлическая руда", "amount": 100 }
+]
+},
+{
+"result_item": "Кожаная шапка",
+"quantity": 1,
+"ingredients": [
+{ "name": "Кожа", "amount": 20 },
+{ "name": "Ткань", "amount": 10 }
+]
+},
+{
+"result_item": "Кожаный жилет",
+"quantity": 1,
+"ingredients": [
+{ "name": "Кожа", "amount": 40 },
+{ "name": "Ткань", "amount": 15 }
+]
+},
+{
+"result_item": "Кожаные штаны",
+"quantity": 1,
+"ingredients": [
+{ "name": "Кожа", "amount": 30 },
+{ "name": "Ткань", "amount": 10 }
+]
+},
+{
+"result_item": "Металлический шлем",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 150 },
+{ "name": "Ткань", "amount": 20 }
+]
+},
+{
+"result_item": "Металлический нагрудник",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 250 },
+{ "name": "Ткань", "amount": 30 }
+]
+},
+{
+"result_item": "Тактический жилет",
+"quantity": 1,
+"ingredients": [
+{ "name": "Высококачественная металлическая руда", "amount": 15 },
+{ "name": "Ткань", "amount": 40 },
+{ "name": "Кожа", "amount": 20 }
+]
+},
+{
+"result_item": "Деревянный фундамент",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 300 }
+]
+},
+{
+"result_item": "Деревянная стена",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 200 }
+]
+},
+{
+"result_item": "Деревянный потолок",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 200 }
+]
+},
+{
+"result_item": "Каменный фундамент",
+"quantity": 1,
+"ingredients": [
+{ "name": "Камень", "amount": 400 },
+{ "name": "Дерево", "amount": 100 }
+]
+},
+{
+"result_item": "Каменная стена",
+"quantity": 1,
+"ingredients": [
+{ "name": "Камень", "amount": 300 }
+]
+},
+{
+"result_item": "Каменный потолок",
+"quantity": 1,
+"ingredients": [
+{ "name": "Камень", "amount": 300 }
+]
+},
+{
+"result_item": "Металлическая стена",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 200 },
+{ "name": "Камень", "amount": 100 }
+]
+},
+{
+"result_item": "Металлическая дверь",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 200 }
+]
+},
+{
+"result_item": "Двойная дверь",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 400 }
+]
+},
+{
+"result_item": "Люк",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 150 },
+{ "name": "Дерево", "amount": 100 }
+]
+},
+{
+"result_item": "Окно с решеткой",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 100 }
+]
+},
+{
+"result_item": "Генератор",
+"quantity": 1,
+"ingredients": [
+{ "name": "Высококачественная металлическая руда", "amount": 25 },
+{ "name": "Электронная плата", "amount": 5 },
+{ "name": "Шестерня", "amount": 5 }
+]
+},
+{
+"result_item": "Лампа",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 10 },
+{ "name": "Ткань", "amount": 5 }
+]
+},
+{
+"result_item": "Выключатель",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 5 },
+{ "name": "Ткань", "amount": 2 }
+]
+},
+{
+"result_item": "Турель",
+"quantity": 1,
+"ingredients": [
+{ "name": "Электронная плата", "amount": 10 },
+{ "name": "Шестерня", "amount": 10 },
+{ "name": "Пружина", "amount": 10 },
+{ "name": "Высококачественная металлическая руда", "amount": 50 }
+]
+},
+{
+"result_item": "Кровать",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 150 },
+{ "name": "Ткань", "amount": 50 }
+]
+},
+{
+"result_item": "Ящик",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 100 },
+{ "name": "Металлическая руда", "amount": 20 }
+]
+},
+{
+"result_item": "Печь",
+"quantity": 1,
+"ingredients": [
+{ "name": "Камень", "amount": 200 },
+{ "name": "Дерево", "amount": 100 },
+{ "name": "Ткань", "amount": 10 }
+]
+},
+{
+"result_item": "Верстак 1 уровня",
+"quantity": 1,
+"ingredients": [
+{ "name": "Дерево", "amount": 500 },
+{ "name": "Камень", "amount": 200 },
+{ "name": "Металлическая руда", "amount": 50 }
+]
+},
+{
+"result_item": "Верстак 2 уровня",
+"quantity": 1,
+"ingredients": [
+{ "name": "Верстак 1 уровня", "amount": 1 },
+{ "name": "Металлическая руда", "amount": 300 },
+{ "name": "Шестерня", "amount": 10 }
+]
+},
+{
+"result_item": "Верстак 3 уровня",
+"quantity": 1,
+"ingredients": [
+{ "name": "Верстак 2 уровня", "amount": 1 },
+{ "name": "Высококачественная металлическая руда", "amount": 50 },
+{ "name": "Электронная плата", "amount": 5 }
+]
+},
+{
+"result_item": "Исследовательский стол",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 200 },
+{ "name": "Дерево", "amount": 100 },
+{ "name": "Скрап", "amount": 50 }
+]
+},
+{
+"result_item": "Шестерня",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 20 }
+]
+},
+{
+"result_item": "Пружина",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 15 }
+]
+},
+{
+"result_item": "Электронная плата",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 30 },
+{ "name": "Ткань", "amount": 5 }
+]
+},
+{
+"result_item": "Труба",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 25 }
+]
+},
+{
+"result_item": "Лист металла",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 40 }
+]
+},
+{
+"result_item": "Винт",
+"quantity": 1,
+"ingredients": [
+{ "name": "Металлическая руда", "amount": 5 }
+]
+},
+{
+"result_item": "Порох",
+"quantity": 10,
+"ingredients": [
+{ "name": "Уголь", "amount": 10 },
+{ "name": "Серная руда", "amount": 10 }
+]
+},
+{
+"result_item": "Приготовленное мясо",
+"quantity": 1,
+"ingredients": [
+{ "name": "Сырое мясо", "amount": 1 },
+{ "name": "Уголь", "amount": 5 }
+]
+}
+]
+}
